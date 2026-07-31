@@ -1,6 +1,6 @@
-# ProgressOS
+# Momentum
 
-ProgressOS is a modern, minimalist, and premium personal productivity Flutter application. It is designed to help users manage daily schedules, track daily tasks, and monitor their completion progress in real-time.
+Momentum is a modern, minimalist, and premium personal productivity Flutter application. It is designed to help users manage daily schedules, track daily tasks, and monitor their completion progress in real-time.
 
 Built from scratch following production-grade standards, the application utilizes Riverpod for state management, GoRouter for navigation, SharedPreferences for settings persistence, Flutter Local Notifications for timed reminders, and Supabase for backend authentication, database storage, and Row Level Security.
 
@@ -8,7 +8,7 @@ Built from scratch following production-grade standards, the application utilize
 
 ## Architecture
 
-ProgressOS follows **Clean Architecture** principles combined with the **Repository Pattern** to ensure the code is modular, decoupled, and easy to extend.
+Momentum follows **Clean Architecture** principles combined with the **Repository Pattern** to ensure the code is modular, decoupled, and easy to extend.
 
 ### Layers:
 
@@ -22,7 +22,7 @@ ProgressOS follows **Clean Architecture** principles combined with the **Reposit
 ## Folder Structure
 
 ```
-progress_os/
+momentum/
 ├── lib/
 │   ├── main.dart                      # Application initialization & provider overrides
 │   ├── core/                          # Core configurations shared across features
@@ -65,7 +65,7 @@ Before getting started, make sure you have the following installed on your machi
 Navigate to the project directory and fetch the required dependencies:
 
 ```bash
-cd progress_os
+cd momentum
 flutter pub get
 ```
 
